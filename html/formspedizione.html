@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Spedizione</title>
+</head>
+<body>
+<form id="spedizione" method="get" action="https://www.toptal.com/developers/postbin/1673280259135-6242765740025">
+        <div>
+            <div>Campo</div>
+            <div>Input</div>
+        </div>
+        <div>
+            <div><label for="name">Nome:</label></div>
+            <div><input id="name" type="text" name="name" placeholder="Nome" required></div>
+        </div>
+        <div>
+            <div><label for="lastname">Nome:</label></div>
+            <div><input id="lastname" type="text" name="lastname" placeholder="Cognome" required></div>
+        </div>
+
+        <div>
+            <div><label for="address">Indirizzo:</label></div>
+            <div><input id="address" type="text" name="address" placeholder="via tei dei tali" required></div>
+        </div>
+
+        <div>
+            <div><label for="pc">Civico:</label></div>
+            <div><input type="number" name="pc" id="pc" placeholder="1"></div>
+        </div>
+
+        <div>
+            <div><label for="cap">Cap:</label></div>
+            <div><input type="number" name="cap" id="cap" placeholder="000000" required></div>
+        </div>
+
+        <div>
+            <div><label for="province">Provincia:</label></div>
+            <div><select name="province" id="province" required>
+                <option value="Ro">Roma</option>
+                <option value="mi">Milano</option>
+                <option value="To">Torino</option>
+                <option value="Other" selected>Altro</option>
+            </select>
+            </div>
+        </div>
+        <div>
+            <div><label for="City">Città:</label></div>
+            <div><input type="text" name="City" id="City" placeholder="Miano" required></div>
+        </div>
+
+        <div>
+            <div><label for="country">Nazione:</label></div>
+            <div><input type="text" name="country" id="country" placeholder="Italia" required></div>
+        </div>
+
+        <div>
+            <div><label for="Phone">Telefono:</label></div>
+            <div><input type="tel" name="Phone" id="Phone" placeholder="333 00333000"></div>
+        </div>
+
+        <div>
+            <div><label for="Email">E-mail:</label></div>
+            <div><input type="email" name="email" id="Email" placeholder="tua@email.it"></div>
+        </div>
+        <div>
+            <div><label for="note">Note:</label></div>
+            <div><textarea id="note" NAME="Note" cols="30" rows="10" placeholder="Note"></textarea></div>
+        </div>
+
+    <input type="submit" value="Invia">
+
+</form>
+
+<button form="spedizione" type="reset">Reset</button>
+</body>
+</html>
