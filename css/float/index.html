@@ -5,17 +5,17 @@
     <title>Float</title>
     <style>
 
-
-        #Oggetto_1 {
+/* imposta una regola di spacing tra le "rules" e adotta sempre la stessa (una linea di distanza va bene..) */
+         #Oggetto_1 {
             box-sizing: border-box;
-            Margin: unset;
+            Margin: unset; /* le property sono minuscole */
             border: 1px solid red;
             width: calc(70% - 0px * 2);
             padding: unset;
             float: left;
             background-color: green;
             height: 50%;
-
+/* va rimosso */
         }
 
         #Oggetto_2 {
@@ -48,6 +48,7 @@
             padding: unset;
             height: 50%;
         }
+        /* heigher è sulla colonna sbagliata.. indentalo come sopra */
 #heighter{
     height: 600px;
 }
@@ -60,7 +61,7 @@
 <div id="heighter">
     <div id="Oggetto_1">Contenuto 1</div>
     <div id="Oggetto_2">Contenuto 2</div>
-
+ <!-- Questo spazio è inutile.. rimuovi tutto -->
 
 
     <div id="Oggetto_3">Contenuto 3</div>
